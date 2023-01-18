@@ -13,10 +13,10 @@
 #  produced by your simulation programmers. You can turn the out file into csv,
 #  for better use in Matlab, Python and else.
 #
-#  More information, visit:
+#  More information, visit: 
 #  Check the latest version:
 #
-#     VicoZhang, Canton. CHINA
+#     VicoZhang, Canton, CHINA
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 
@@ -45,7 +45,7 @@ def turn_csv(bn, source, target):
             OutFile(str(source.joinpath(item))).toCSV()
         File.move_files(source, target, '.csv')
     else:
-        print('csv文件转换出现问题，请检查')
+        print('csv文件转换出错，请检查')
         exit()
     print('csv文件已转换至{}'.format(str(target)))
 
@@ -64,5 +64,3 @@ if __name__ == '__main__':
 
     basename = find_basename(args.input, args.basename)
     turn_csv(basename, args.input, args.output)
-
-

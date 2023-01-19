@@ -3,8 +3,8 @@
 # ------------------------------------------------------------------------------
 #
 #  本程序可用于将 PsCad 仿真产生的数据转换成 csv 文件，从而更好地与 Matlab、Python 等进行交互
-#  具体使用方法，参照：
-#  访问以下地址检查是否为最新：
+#  具体使用方法，参照：https://zhuanlan.zhihu.com/p/599964111
+#  访问以下地址检查是否为最新：https://github.com/VicoZhang/PyPsCad
 #
 #     VicoZhang, 中国广州
 # ------------------------------------------------------------------------------
@@ -13,8 +13,8 @@
 #  produced by your simulation programmers. You can turn the out file into csv,
 #  for better use in Matlab, Python and else.
 #
-#  More information, visit: 
-#  Check the latest version:
+#  More information, visit: https://zhuanlan.zhihu.com/p/599964111
+#  Check the latest version: https://github.com/VicoZhang/PyPsCad
 #
 #     VicoZhang, Canton, CHINA
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

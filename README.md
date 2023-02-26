@@ -4,7 +4,17 @@
 
 ## 项目结构
 
-
+```
+PYPSCAD
+    │  .gitignore  (git 文件)
+    │  README.md  (README文件)
+    │
+    ├─doc  (帮助文件)
+    │      一种基于python的Pscad仿真数据处理方案.pdf
+    │
+    └─src  (源码)
+    		PyOut.py 
+```
 
 ## 项目包含内容
 

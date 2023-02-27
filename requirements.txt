@@ -1,0 +1,1 @@
+mhrc_automation==1.2.4
